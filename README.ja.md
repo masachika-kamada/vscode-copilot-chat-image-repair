@@ -17,7 +17,7 @@ Reason: Request Failed: 400 {"error":{"message":"one or more attachments was not
 
 ## ダウンロード
 
-[最新の Release](https://github.com/masachika-kamada/vscode-copilot-chat-image-repair/releases/latest) から `CopilotChatImageRepair-v1.0.0.zip` をダウンロードします。
+[最新の Release](https://github.com/masachika-kamada/vscode-copilot-chat-image-repair/releases/latest) から `CopilotChatImageRepair-v1.0.1.zip` をダウンロードします。
 
 ## 簡単な使い方
 

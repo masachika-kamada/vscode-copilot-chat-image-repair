@@ -149,7 +149,7 @@ function Get-FinalRequests {
 
     $requests = @()
 
-    foreach ($line in [System.IO.File]::ReadLines($Path)) {
+    foreach ($line in [System.IO.File]::ReadAllLines($Path)) {
         if ([string]::IsNullOrWhiteSpace($line)) {
             continue
         }
@@ -297,7 +297,7 @@ function Test-SessionFileHasClientRequestId {
         [Parameter(Mandatory)][string]$Id
     )
 
-    foreach ($line in [System.IO.File]::ReadLines($Path)) {
+    foreach ($line in [System.IO.File]::ReadAllLines($Path)) {
         if ([string]::IsNullOrWhiteSpace($line) -or $line.IndexOf($Id, [StringComparison]::OrdinalIgnoreCase) -lt 0) {
             continue
         }

@@ -19,7 +19,7 @@ The tool finds the original failed session from its `Client Request Id`, removes
 
 ## Download
 
-Download `CopilotChatImageRepair-v1.0.0.zip` from the [latest release](https://github.com/masachika-kamada/vscode-copilot-chat-image-repair/releases/latest).
+Download `CopilotChatImageRepair-v1.0.1.zip` from the [latest release](https://github.com/masachika-kamada/vscode-copilot-chat-image-repair/releases/latest).
 
 ## Quick start
 
